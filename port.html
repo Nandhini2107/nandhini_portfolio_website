@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nandhini Annamalai Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background: #003366; /* Navy Blue */
+            color: #fff;
+            padding: 40px 0;
+        }
+
+        header h1 {
+            font-size: 3em;
+            font-weight: bold;
+        }
+
+        /* Navigation Bar */
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #fff;
+            color: #003366; /* Navy Blue on Hover */
+        }
+
+        /* Sections */
+        section {
+            padding: 40px 0;
+        }
+
+        section h2 {
+            margin-bottom: 20px;
+            color: #003366; /* Navy Blue for Section Headers */
+        }
+
+        /* Footer */
+        footer {
+            background: #f8f9fa;
+            padding: 20px 0;
+            color: #6c757d;
+        }
+
+        footer p {
+            color: #003366; /* Navy Blue for Footer Text */
+        }
+
+        /* Project Modal Images */
+        .modal-body img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="text-center">
+        <div class="container">
+            <h1>Nandhini Annamalai</h1>
+            <p>Aspiring Java Full-Stack Developer with a Passion for Coding and Problem-Solving</p>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#resume">Resume</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I bring strong skills in tools like VSCode, Eclipse, XAMPP, Postman, MySQL, Bootstrap, and GitHub. Proficient in Java, HTML/CSS, JavaScript, SQL, and Spring Boot Initializer, I am eager to contribute to innovative projects and grow as a developer.</p>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <ul>
+                <li>Bachelor of Computer Science and Engineering - Prince Dr. K. Vasudevan College of Engineering and Technology (2021-2025)</li>
+                <li>Grade: 8.6</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects and Internships</h2>
+            <ul>
+                <li><a href="#" data-bs-toggle="modal" data-bs-target="#quizModal"><strong>Online Quiz Application</strong></a> (Tata Strive, Oct 2024 - Jan 2024)</li>
+                <li><a href="#" data-bs-toggle="modal" data-bs-target="#flightModal"><strong>Flight Price Prediction</strong></a> (GUVIGEEK, March 2024)</li>
+                <li><a href="#" data-bs-toggle="modal" data-bs-target="#ecommerceModal"><strong>E-Commerce Website</strong></a> (ACMEGRADE, Dec 2023 - Feb 2024)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Modal for Quiz Application -->
+    <div class="modal fade" id="quizModal" tabindex="-1" aria-labelledby="quizModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="quizModalLabel">Online Quiz Application</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="online.jpg" alt="Online Quiz Application">
+                    <p>Developed backend functionality including user authentication, database management, and result calculation.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Flight Price Prediction -->
+    <div class="modal fade" id="flightModal" tabindex="-1" aria-labelledby="flightModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="flightModalLabel">Flight Price Prediction</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="Screenshot (147).png" alt="Flight Price Prediction">
+                    <p>Built machine learning models using Python, Pandas, and NumPy to predict flight prices.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for E-Commerce Website -->
+    <div class="modal fade" id="ecommerceModal" tabindex="-1" aria-labelledby="ecommerceModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ecommerceModalLabel">E-Commerce Website</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="Screenshot (110).png" alt="E-Commerce Website">
+                    <p>Developed an e-commerce platform with user authentication, product management, and checkout features.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Details</h2>
+            <ul>
+                <li>Email: <a href="mailto:nandhiniannamalai2107@gmail.com">nandhiniannamalai2107@gmail.com</a></li>
+                <li>Phone: <a href="tel:+917010348916">7010348916</a></li>
+                <li>GitHub: <a href="https://github.com/Nandhini2107" target="_blank">github.com/Nandhini2107</a></li>
+                <li>LinkedIn: <a href="https://linkedin.com/in/nandhiniannamalai-31712624a" target="_blank">linkedin.com/in/nandhiniannamalai-31712624a</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <p>&copy; 2024 Nandhini Annamalai. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
